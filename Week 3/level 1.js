@@ -76,7 +76,7 @@
  viii. !(4 > 3 && 10 < 12) //false
    ix. !(4 > 3 && 10 > 12) //true
     x. !(4 === '4')        //true
-   xi. There is no 'on' in both dragon and python */
+   xi. There is no 'on' in both dragon and python.| */
 //comfirming with console.log()
      console.log(4 > 3 && 10 < 12)
      console.log(4 > 3 && 10 > 12)
@@ -91,7 +91,7 @@
    let wild = 'dragon'
    let wild1 = 'python'
    console.log(wild.includes('!on'))
-   console.log(wild1.includes(!'on'))
+   console.log(wild1.includes('!on'))
 /*Question 7 Use the Date object to do the following activities
    i. What is the year today?
   ii. What is the month today as a number?
