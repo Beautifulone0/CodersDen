@@ -1,4 +1,4 @@
-export const webTechs = [
+ export const webTechs = [
   'HTML',
   'CSS',
   'JavaScript',
