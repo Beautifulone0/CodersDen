@@ -118,4 +118,21 @@ function printFullName(firstName, lastName) {
 }
 console.log(printFullName('Asabeneh', 'Yetayeh')) 
 
+const isTrue = true == []
+const isFalse = true == ![]
 
+console.log(isTrue + isFalse)
+
+const users = [
+  { name: 'Asabeneh', age: 150 },
+  { name: 'Brook', age: 50 },
+  { name: 'Eyob', age: 100 },
+  { name: 'Elias', age: 22 },
+]
+users.sort((a, b) => {
+  if (a.name < b.name) return -1
+  if (a.name > b.name) return 1
+  return 0
+})
+console.log(users) // sorted ascending
+// [{…}, {…}, {…}, {…}]
