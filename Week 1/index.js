@@ -9,24 +9,24 @@
 //Question 5 Create datatypes.js file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
   //Answer is in the datatypes.js file
 //Question 6 Declare four variables without assigning values
-let nickname
-let state
-let job
-let capitalcity
+let nickname;
+let state;
+let job;
+let capitalcity;
 //Qustion 7 Declare four variables with assigned values
-let name = 'beautifulone'
+let name = 'Awelewa'
 let city = 'lagos state nigeria'
-let year = 2022
-let ismarried = false
+let year = 2023
+let issingle = true
 //Question 8 Declare variables to store your first name, last name, marital status, country and age in multiple lines
-let firstname1 = 'Awele'
+let firstname1 = 'Awelewa'
 let lastname1 = 'beautifulone'
 let issingle1 = true
 let country1 = 'nigeria'
-let age1 = 22
+let age1 = 23
 //Question 9 Declare variables to store your first name, last name, marital status, country and age in a single line
-let firstname = 'Awele' ,lastname = 'beautifulone' ,issingle = true ,country = 'nigeria' ,age = 22
+let firstname = 'Awele' ,lastname = 'beautifulone' ,isMarried = false ,country = 'nigeria' ,age = 23
 //Question 10 Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
-let myAge = 22
+let myAge = 23
 let yourAge = 25
-console.log(myAge+" " +yourAge)
+console.log(myAge+" , " +yourAge)
