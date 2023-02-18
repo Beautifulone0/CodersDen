@@ -10,10 +10,12 @@
        console.log(challenge.toLowerCase())
 //Question 6 Cut (slice) out the first word of the string using substr() or substring() method
        challenge = '30 Days Of JavaScript'
-       console.log(challenge.slice(0,2))
+       console.log(challenge.substr(2,6))
+       console.log(challenge.substring(2,7))
 //Question 7 Slice out the phrase Days Of JavaScript from 30 Days Of JavaScript
         challenge = '30 Days Of JavaScript'
-        console.log(challenge.slice(2))
+        console.log(challenge.slice(-18))
+        console.log(challenge.slice(0,2))
 //Question 8 Check if the string contains a word Script using includes() method
         challenge = '30 Days Of JavaScript'
         console.log(challenge.includes('Script'))
